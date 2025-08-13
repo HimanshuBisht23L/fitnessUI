@@ -1,0 +1,43 @@
+.authCont-main-cont {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.authCont-sub-cont {
+    background: linear-gradient(to right, #ffffff27 50%, #ffffff11 50%);
+    border-radius: 20px;
+    display: flex;
+    padding: 2rem;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    transition: all 1s ease-in-out;
+    position: relative;
+}
+
+
+.auth-back-btn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color:aqua;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.auth-back-btn:hover{
+    background-color: #ffffff11;
+}
+
+.auth-back-btn:active{
+    background-color:#ffffff0a;
+}

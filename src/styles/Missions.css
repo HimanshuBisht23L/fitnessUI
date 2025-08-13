@@ -1,0 +1,195 @@
+.mission-main-cont {
+    flex-grow: 1;
+    background: linear-gradient(to bottom, #0a0f1d 0%, #0f1c2e 100%);
+    color: #00ffe1;
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mission-complete-promt {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    /* z-index: 1; */
+    backdrop-filter: blur(8px);
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.mission-complete-promt>button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #00ffe1;
+    background: transparent;
+    color: #00ffe1;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.mission-complete-promt>button:hover {
+    background-color: #00ffe1;
+    color: #0a0f1d;
+}
+
+.mission-complete-promt>button:active {
+    background-color: #00ffe1a7;
+    color: #0a0f1d;
+}
+
+.mission-main-cont>h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.mission-cont {
+    border: 1px solid #00ffe1;
+    padding: 2rem;
+    width: 80%;
+    /* height: 70vh; */
+    height: fit-content;
+    border-radius: 15px;
+    background-color: rgba(10, 15, 29, 0.9);
+    box-shadow: 0 0 15px #00ffe1;
+    overflow-y: auto;
+}
+
+.mission-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #00ffe1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+}
+
+thead tr {
+    background-color: #112233;
+    color: #00ffe1;
+}
+
+thead th,
+tbody td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #00ffe1;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    accent-color: #00ffe1;
+    cursor: pointer;
+}
+
+
+
+
+.complete-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #00ffe1;
+    background: transparent;
+    color: #00ffe1;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.complete-btn:hover {
+    background-color: #00ffe1;
+    color: #0a0f1d;
+}
+
+.complete-btn:active {
+    background-color: #00ffe1a7;
+    color: #0a0f1d;
+}
+
+
+.login-popup {
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.sub-login-popup {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 1rem 0.8rem;
+    border-radius: 15px;
+    gap: 1.5rem;
+    background: linear-gradient(to bottom, #0a0f1d 0%, #0f1c2e 100%);
+    border : 1px solid rgba(179, 245, 229, 0.546);
+}
+
+.sub-login-popup b{
+    color: rgb(0, 255, 255);
+    text-decoration: underline;
+}
+
+.popup-heading{
+    display: flex;
+    justify-content: space-between;
+
+    >h2{
+        color: rgb(0, 255, 234);
+    }
+}
+
+.login-popup-button{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.close-login-popup{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+
+.close-login-popup:hover {
+    background-color: #eaeaea30;
+    color: white;
+}
+
+.close-login-popup:active {
+    background-color: #eaeaea1f;
+    color: white;
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "level": 1,
+    "exercises": {
+      "Pushups": 10,
+      "Situps": 10,
+      "Running": "0.5 km",
+      "Pullups": 2,
+      "Crunches": 10
+    }
+  },
+  {
+    "level": 2,
+    "exercises": {
+      "Pushups": 15,
+      "Situps": 15,
+      "Running": "0.6 km",
+      "Pullups": 4,
+      "Crunches": 18
+    }
+  },
+  {
+    "level": 3,
+    "exercises": {
+      "Pushups": 20,
+      "Situps": 20,
+      "Running": "0.7 km",
+      "Pullups": 6,
+      "Crunches": 26
+    }
+  },
+  {
+    "level": 4,
+    "exercises": {
+      "Pushups": 25,
+      "Situps": 25,
+      "Running": "0.8 km",
+      "Pullups": 8,
+      "Crunches": 34
+    }
+  },
+  {
+    "level": 5,
+    "exercises": {
+      "Pushups": 30,
+      "Situps": 30,
+      "Running": "0.9 km",
+      "Pullups": 10,
+      "Crunches": 42
+    }
+  },
+  {
+    "level": 6,
+    "exercises": {
+      "Pushups": 35,
+      "Situps": 35,
+      "Running": "1.0 km",
+      "Pullups": 12,
+      "Crunches": 50
+    }
+  },
+  {
+    "level": 7,
+    "exercises": {
+      "Pushups": 40,
+      "Situps": 40,
+      "Running": "1.1 km",
+      "Pullups": 14,
+      "Crunches": 58
+    }
+  },
+  {
+    "level": 8,
+    "exercises": {
+      "Pushups": 45,
+      "Situps": 45,
+      "Running": "1.2 km",
+      "Pullups": 16,
+      "Crunches": 66
+    }
+  },
+  {
+    "level": 9,
+    "exercises": {
+      "Pushups": 50,
+      "Situps": 50,
+      "Running": "1.3 km",
+      "Pullups": 18,
+      "Crunches": 74
+    }
+  },
+  {
+    "level": 10,
+    "exercises": {
+      "Pushups": 55,
+      "Situps": 55,
+      "Running": "1.4 km",
+      "Pullups": 20,
+      "Crunches": 82
+    }
+  },
+  {
+    "level": 11,
+    "exercises": {
+      "Pushups": 60,
+      "Situps": 60,
+      "Running": "1.5 km",
+      "Pullups": 22,
+      "Crunches": 90
+    }
+  },
+  {
+    "level": 12,
+    "exercises": {
+      "Pushups": 65,
+      "Situps": 65,
+      "Running": "1.6 km",
+      "Pullups": 24,
+      "Crunches": 98
+    }
+  },
+  {
+    "level": 13,
+    "exercises": {
+      "Pushups": 70,
+      "Situps": 70,
+      "Running": "1.7 km",
+      "Pullups": 26,
+      "Crunches": 106
+    }
+  },
+  {
+    "level": 14,
+    "exercises": {
+      "Pushups": 75,
+      "Situps": 75,
+      "Running": "1.8 km",
+      "Pullups": 28,
+      "Crunches": 114
+    }
+  },
+  {
+    "level": 15,
+    "exercises": {
+      "Pushups": 80,
+      "Situps": 80,
+      "Running": "1.9 km",
+      "Pullups": 30,
+      "Crunches": 122
+    }
+  },
+  {
+    "level": 16,
+    "exercises": {
+      "Pushups": 85,
+      "Situps": 85,
+      "Running": "2.0 km",
+      "Pullups": 32,
+      "Crunches": 130
+    }
+  },
+  {
+    "level": 17,
+    "exercises": {
+      "Pushups": 90,
+      "Situps": 90,
+      "Running": "2.1 km",
+      "Pullups": 34,
+      "Crunches": 138
+    }
+  },
+  {
+    "level": 18,
+    "exercises": {
+      "Pushups": 95,
+      "Situps": 95,
+      "Running": "2.2 km",
+      "Pullups": 36,
+      "Crunches": 146
+    }
+  },
+  {
+    "level": 19,
+    "exercises": {
+      "Pushups": 100,
+      "Situps": 100,
+      "Running": "2.3 km",
+      "Pullups": 38,
+      "Crunches": 154
+    }
+  },
+  {
+    "level": 20,
+    "exercises": {
+      "Pushups": 105,
+      "Situps": 105,
+      "Running": "2.4 km",
+      "Pullups": 40,
+      "Crunches": 162
+    }
+  },
+  {
+    "level": 21,
+    "exercises": {
+      "Pushups": 110,
+      "Situps": 110,
+      "Running": "2.5 km",
+      "Pullups": 42,
+      "Crunches": 170
+    }
+  },
+  {
+    "level": 22,
+    "exercises": {
+      "Pushups": 115,
+      "Situps": 115,
+      "Running": "2.6 km",
+      "Pullups": 44,
+      "Crunches": 178
+    }
+  },
+  {
+    "level": 23,
+    "exercises": {
+      "Pushups": 120,
+      "Situps": 120,
+      "Running": "2.7 km",
+      "Pullups": 46,
+      "Crunches": 186
+    }
+  },
+  {
+    "level": 24,
+    "exercises": {
+      "Pushups": 125,
+      "Situps": 125,
+      "Running": "2.8 km",
+      "Pullups": 48,
+      "Crunches": 194
+    }
+  },
+  {
+    "level": 25,
+    "exercises": {
+      "Pushups": 130,
+      "Situps": 130,
+      "Running": "2.9 km",
+      "Pullups": 50,
+      "Crunches": 202
+    }
+  },
+  {
+    "level": 26,
+    "exercises": {
+      "Pushups": 135,
+      "Situps": 135,
+      "Running": "3.0 km",
+      "Pullups": 52,
+      "Crunches": 210
+    }
+  },
+  {
+    "level": 27,
+    "exercises": {
+      "Pushups": 140,
+      "Situps": 140,
+      "Running": "3.1 km",
+      "Pullups": 54,
+      "Crunches": 218
+    }
+  },
+  {
+    "level": 28,
+    "exercises": {
+      "Pushups": 145,
+      "Situps": 145,
+      "Running": "3.2 km",
+      "Pullups": 56,
+      "Crunches": 226
+    }
+  },
+  {
+    "level": 29,
+    "exercises": {
+      "Pushups": 150,
+      "Situps": 150,
+      "Running": "3.3 km",
+      "Pullups": 58,
+      "Crunches": 234
+    }
+  },
+  {
+    "level": 30,
+    "exercises": {
+      "Pushups": 155,
+      "Situps": 155,
+      "Running": "3.4 km",
+      "Pullups": 60,
+      "Crunches": 242
+    }
+  },
+  {
+    "level": 31,
+    "exercises": {
+      "Pushups": 160,
+      "Situps": 160,
+      "Running": "3.5 km",
+      "Pullups": 62,
+      "Crunches": 250
+    }
+  },
+  {
+    "level": 32,
+    "exercises": {
+      "Pushups": 165,
+      "Situps": 165,
+      "Running": "3.6 km",
+      "Pullups": 64,
+      "Crunches": 258
+    }
+  },
+  {
+    "level": 33,
+    "exercises": {
+      "Pushups": 170,
+      "Situps": 170,
+      "Running": "3.7 km",
+      "Pullups": 66,
+      "Crunches": 266
+    }
+  },
+  {
+    "level": 34,
+    "exercises": {
+      "Pushups": 175,
+      "Situps": 175,
+      "Running": "3.8 km",
+      "Pullups": 68,
+      "Crunches": 274
+    }
+  },
+  {
+    "level": 35,
+    "exercises": {
+      "Pushups": 180,
+      "Situps": 180,
+      "Running": "3.9 km",
+      "Pullups": 70,
+      "Crunches": 282
+    }
+  },
+  {
+    "level": 36,
+    "exercises": {
+      "Pushups": 185,
+      "Situps": 185,
+      "Running": "4.0 km",
+      "Pullups": 72,
+      "Crunches": 290
+    }
+  },
+  {
+    "level": 37,
+    "exercises": {
+      "Pushups": 190,
+      "Situps": 190,
+      "Running": "4.1 km",
+      "Pullups": 74,
+      "Crunches": 298
+    }
+  },
+  {
+    "level": 38,
+    "exercises": {
+      "Pushups": 195,
+      "Situps": 195,
+      "Running": "4.2 km",
+      "Pullups": 76,
+      "Crunches": 306
+    }
+  },
+  {
+    "level": 39,
+    "exercises": {
+      "Pushups": 200,
+      "Situps": 200,
+      "Running": "4.3 km",
+      "Pullups": 78,
+      "Crunches": 314
+    }
+  },
+  {
+    "level": 40,
+    "exercises": {
+      "Pushups": 205,
+      "Situps": 205,
+      "Running": "4.4 km",
+      "Pullups": 80,
+      "Crunches": 322
+    }
+  },
+  {
+    "level": 41,
+    "exercises": {
+      "Pushups": 210,
+      "Situps": 210,
+      "Running": "4.5 km",
+      "Pullups": 82,
+      "Crunches": 330
+    }
+  },
+  {
+    "level": 42,
+    "exercises": {
+      "Pushups": 215,
+      "Situps": 215,
+      "Running": "4.6 km",
+      "Pullups": 84,
+      "Crunches": 338
+    }
+  },
+  {
+    "level": 43,
+    "exercises": {
+      "Pushups": 220,
+      "Situps": 220,
+      "Running": "4.7 km",
+      "Pullups": 86,
+      "Crunches": 346
+    }
+  },
+  {
+    "level": 44,
+    "exercises": {
+      "Pushups": 225,
+      "Situps": 225,
+      "Running": "4.8 km",
+      "Pullups": 88,
+      "Crunches": 354
+    }
+  },
+  {
+    "level": 45,
+    "exercises": {
+      "Pushups": 230,
+      "Situps": 230,
+      "Running": "4.9 km",
+      "Pullups": 90,
+      "Crunches": 362
+    }
+  },
+  {
+    "level": 46,
+    "exercises": {
+      "Pushups": 235,
+      "Situps": 235,
+      "Running": "5.0 km",
+      "Pullups": 92,
+      "Crunches": 370
+    }
+  },
+  {
+    "level": 47,
+    "exercises": {
+      "Pushups": 240,
+      "Situps": 240,
+      "Running": "5.1 km",
+      "Pullups": 94,
+      "Crunches": 378
+    }
+  },
+  {
+    "level": 48,
+    "exercises": {
+      "Pushups": 245,
+      "Situps": 245,
+      "Running": "5.2 km",
+      "Pullups": 96,
+      "Crunches": 386
+    }
+  },
+  {
+    "level": 49,
+    "exercises": {
+      "Pushups": 250,
+      "Situps": 250,
+      "Running": "5.3 km",
+      "Pullups": 98,
+      "Crunches": 394
+    }
+  },
+  {
+    "level": 50,
+    "exercises": {
+      "Pushups": 255,
+      "Situps": 255,
+      "Running": "5.4 km",
+      "Pullups": 100,
+      "Crunches": 402
+    }
+  },
+  {
+    "level": 51,
+    "exercises": {
+      "Pushups": 260,
+      "Situps": 260,
+      "Running": "5.5 km",
+      "Pullups": 102,
+      "Crunches": 410
+    }
+  },
+  {
+    "level": 52,
+    "exercises": {
+      "Pushups": 265,
+      "Situps": 265,
+      "Running": "5.6 km",
+      "Pullups": 104,
+      "Crunches": 418
+    }
+  },
+  {
+    "level": 53,
+    "exercises": {
+      "Pushups": 270,
+      "Situps": 270,
+      "Running": "5.7 km",
+      "Pullups": 106,
+      "Crunches": 426
+    }
+  },
+  {
+    "level": 54,
+    "exercises": {
+      "Pushups": 275,
+      "Situps": 275,
+      "Running": "5.8 km",
+      "Pullups": 108,
+      "Crunches": 434
+    }
+  },
+  {
+    "level": 55,
+    "exercises": {
+      "Pushups": 280,
+      "Situps": 280,
+      "Running": "5.9 km",
+      "Pullups": 110,
+      "Crunches": 442
+    }
+  },
+  {
+    "level": 56,
+    "exercises": {
+      "Pushups": 285,
+      "Situps": 285,
+      "Running": "6.0 km",
+      "Pullups": 112,
+      "Crunches": 450
+    }
+  },
+  {
+    "level": 57,
+    "exercises": {
+      "Pushups": 290,
+      "Situps": 290,
+      "Running": "6.1 km",
+      "Pullups": 114,
+      "Crunches": 458
+    }
+  },
+  {
+    "level": 58,
+    "exercises": {
+      "Pushups": 295,
+      "Situps": 295,
+      "Running": "6.2 km",
+      "Pullups": 116,
+      "Crunches": 466
+    }
+  },
+  {
+    "level": 59,
+    "exercises": {
+      "Pushups": 300,
+      "Situps": 300,
+      "Running": "6.3 km",
+      "Pullups": 118,
+      "Crunches": 474
+    }
+  },
+  {
+    "level": 60,
+    "exercises": {
+      "Pushups": 305,
+      "Situps": 305,
+      "Running": "6.4 km",
+      "Pullups": 120,
+      "Crunches": 482
+    }
+  },
+  {
+    "level": 61,
+    "exercises": {
+      "Pushups": 310,
+      "Situps": 310,
+      "Running": "6.5 km",
+      "Pullups": 122,
+      "Crunches": 490
+    }
+  },
+  {
+    "level": 62,
+    "exercises": {
+      "Pushups": 315,
+      "Situps": 315,
+      "Running": "6.6 km",
+      "Pullups": 124,
+      "Crunches": 498
+    }
+  },
+  {
+    "level": 63,
+    "exercises": {
+      "Pushups": 320,
+      "Situps": 320,
+      "Running": "6.7 km",
+      "Pullups": 126,
+      "Crunches": 506
+    }
+  },
+  {
+    "level": 64,
+    "exercises": {
+      "Pushups": 325,
+      "Situps": 325,
+      "Running": "6.8 km",
+      "Pullups": 128,
+      "Crunches": 514
+    }
+  },
+  {
+    "level": 65,
+    "exercises": {
+      "Pushups": 330,
+      "Situps": 330,
+      "Running": "6.9 km",
+      "Pullups": 130,
+      "Crunches": 522
+    }
+  },
+  {
+    "level": 66,
+    "exercises": {
+      "Pushups": 335,
+      "Situps": 335,
+      "Running": "7.0 km",
+      "Pullups": 132,
+      "Crunches": 530
+    }
+  },
+  {
+    "level": 67,
+    "exercises": {
+      "Pushups": 340,
+      "Situps": 340,
+      "Running": "7.1 km",
+      "Pullups": 134,
+      "Crunches": 538
+    }
+  },
+  {
+    "level": 68,
+    "exercises": {
+      "Pushups": 345,
+      "Situps": 345,
+      "Running": "7.2 km",
+      "Pullups": 136,
+      "Crunches": 546
+    }
+  },
+  {
+    "level": 69,
+    "exercises": {
+      "Pushups": 350,
+      "Situps": 350,
+      "Running": "7.3 km",
+      "Pullups": 138,
+      "Crunches": 554
+    }
+  },
+  {
+    "level": 70,
+    "exercises": {
+      "Pushups": 355,
+      "Situps": 355,
+      "Running": "7.4 km",
+      "Pullups": 140,
+      "Crunches": 562
+    }
+  },
+  {
+    "level": 71,
+    "exercises": {
+      "Pushups": 360,
+      "Situps": 360,
+      "Running": "7.5 km",
+      "Pullups": 142,
+      "Crunches": 570
+    }
+  },
+  {
+    "level": 72,
+    "exercises": {
+      "Pushups": 365,
+      "Situps": 365,
+      "Running": "7.6 km",
+      "Pullups": 144,
+      "Crunches": 578
+    }
+  },
+  {
+    "level": 73,
+    "exercises": {
+      "Pushups": 370,
+      "Situps": 370,
+      "Running": "7.7 km",
+      "Pullups": 146,
+      "Crunches": 586
+    }
+  },
+  {
+    "level": 74,
+    "exercises": {
+      "Pushups": 375,
+      "Situps": 375,
+      "Running": "7.8 km",
+      "Pullups": 148,
+      "Crunches": 594
+    }
+  },
+  {
+    "level": 75,
+    "exercises": {
+      "Pushups": 380,
+      "Situps": 380,
+      "Running": "7.9 km",
+      "Pullups": 150,
+      "Crunches": 602
+    }
+  },
+  {
+    "level": 76,
+    "exercises": {
+      "Pushups": 385,
+      "Situps": 385,
+      "Running": "8.0 km",
+      "Pullups": 152,
+      "Crunches": 610
+    }
+  },
+  {
+    "level": 77,
+    "exercises": {
+      "Pushups": 390,
+      "Situps": 390,
+      "Running": "8.1 km",
+      "Pullups": 154,
+      "Crunches": 618
+    }
+  },
+  {
+    "level": 78,
+    "exercises": {
+      "Pushups": 395,
+      "Situps": 395,
+      "Running": "8.2 km",
+      "Pullups": 156,
+      "Crunches": 626
+    }
+  },
+  {
+    "level": 79,
+    "exercises": {
+      "Pushups": 400,
+      "Situps": 400,
+      "Running": "8.3 km",
+      "Pullups": 158,
+      "Crunches": 634
+    }
+  },
+  {
+    "level": 80,
+    "exercises": {
+      "Pushups": 405,
+      "Situps": 405,
+      "Running": "8.4 km",
+      "Pullups": 160,
+      "Crunches": 642
+    }
+  },
+  {
+    "level": 81,
+    "exercises": {
+      "Pushups": 410,
+      "Situps": 410,
+      "Running": "8.5 km",
+      "Pullups": 162,
+      "Crunches": 650
+    }
+  },
+  {
+    "level": 82,
+    "exercises": {
+      "Pushups": 415,
+      "Situps": 415,
+      "Running": "8.6 km",
+      "Pullups": 164,
+      "Crunches": 658
+    }
+  },
+  {
+    "level": 83,
+    "exercises": {
+      "Pushups": 420,
+      "Situps": 420,
+      "Running": "8.7 km",
+      "Pullups": 166,
+      "Crunches": 666
+    }
+  },
+  {
+    "level": 84,
+    "exercises": {
+      "Pushups": 425,
+      "Situps": 425,
+      "Running": "8.8 km",
+      "Pullups": 168,
+      "Crunches": 674
+    }
+  },
+  {
+    "level": 85,
+    "exercises": {
+      "Pushups": 430,
+      "Situps": 430,
+      "Running": "8.9 km",
+      "Pullups": 170,
+      "Crunches": 682
+    }
+  },
+  {
+    "level": 86,
+    "exercises": {
+      "Pushups": 435,
+      "Situps": 435,
+      "Running": "9.0 km",
+      "Pullups": 172,
+      "Crunches": 690
+    }
+  },
+  {
+    "level": 87,
+    "exercises": {
+      "Pushups": 440,
+      "Situps": 440,
+      "Running": "9.1 km",
+      "Pullups": 174,
+      "Crunches": 698
+    }
+  },
+  {
+    "level": 88,
+    "exercises": {
+      "Pushups": 445,
+      "Situps": 445,
+      "Running": "9.2 km",
+      "Pullups": 176,
+      "Crunches": 706
+    }
+  },
+  {
+    "level": 89,
+    "exercises": {
+      "Pushups": 450,
+      "Situps": 450,
+      "Running": "9.3 km",
+      "Pullups": 178,
+      "Crunches": 714
+    }
+  },
+  {
+    "level": 90,
+    "exercises": {
+      "Pushups": 455,
+      "Situps": 455,
+      "Running": "9.4 km",
+      "Pullups": 180,
+      "Crunches": 722
+    }
+  },
+  {
+    "level": 91,
+    "exercises": {
+      "Pushups": 460,
+      "Situps": 460,
+      "Running": "9.5 km",
+      "Pullups": 182,
+      "Crunches": 730
+    }
+  },
+  {
+    "level": 92,
+    "exercises": {
+      "Pushups": 465,
+      "Situps": 465,
+      "Running": "9.6 km",
+      "Pullups": 184,
+      "Crunches": 738
+    }
+  },
+  {
+    "level": 93,
+    "exercises": {
+      "Pushups": 470,
+      "Situps": 470,
+      "Running": "9.7 km",
+      "Pullups": 186,
+      "Crunches": 746
+    }
+  },
+  {
+    "level": 94,
+    "exercises": {
+      "Pushups": 475,
+      "Situps": 475,
+      "Running": "9.8 km",
+      "Pullups": 188,
+      "Crunches": 754
+    }
+  },
+  {
+    "level": 95,
+    "exercises": {
+      "Pushups": 480,
+      "Situps": 480,
+      "Running": "9.9 km",
+      "Pullups": 190,
+      "Crunches": 762
+    }
+  },
+  {
+    "level": 96,
+    "exercises": {
+      "Pushups": 485,
+      "Situps": 485,
+      "Running": "10.0 km",
+      "Pullups": 192,
+      "Crunches": 770
+    }
+  },
+  {
+    "level": 97,
+    "exercises": {
+      "Pushups": 490,
+      "Situps": 490,
+      "Running": "10.1 km",
+      "Pullups": 194,
+      "Crunches": 778
+    }
+  },
+  {
+    "level": 98,
+    "exercises": {
+      "Pushups": 495,
+      "Situps": 495,
+      "Running": "10.2 km",
+      "Pullups": 196,
+      "Crunches": 786
+    }
+  },
+  {
+    "level": 99,
+    "exercises": {
+      "Pushups": 500,
+      "Situps": 500,
+      "Running": "10.3 km",
+      "Pullups": 198,
+      "Crunches": 794
+    }
+  },
+  {
+    "level": 100,
+    "exercises": {
+      "Pushups": 505,
+      "Situps": 505,
+      "Running": "10.4 km",
+      "Pullups": 200,
+      "Crunches": 802
+    }
+  }
+]
