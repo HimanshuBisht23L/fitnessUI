@@ -15,3 +15,11 @@ export const FaildToast = (message) => {
         transition: Bounce,
     })
 }
+
+export const InfoToast = (message) => {
+    toast.info(message, {
+        position: "top-center",
+        autoClose: 2000,
+        transition: Bounce,
+    })
+}

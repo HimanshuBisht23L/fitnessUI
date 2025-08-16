@@ -101,6 +101,15 @@ function Navbar() {
         }
     }
 
+
+    const scrooltoContact = () => {
+        navigate("/",{
+            state :{
+                scrollToContact : true
+            }
+        })
+    }
+
     return (
         <>
 
@@ -119,7 +128,10 @@ function Navbar() {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/system">System</Link></li>
                     <li><Link to="/missions">Missions</Link></li>
-                    <li><Link to="/about">About</Link></li>
+                    <li><Link
+                        onClick={scrooltoContact}
+                        to="/contactUs"
+                    >Contact Us</Link></li>
 
                     {
                         isAuthenticated ?

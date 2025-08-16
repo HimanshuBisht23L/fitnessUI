@@ -200,6 +200,7 @@ function App() {
           }
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/contactUs" element={<HomePage />} />
             <Route path="/system" element={<SystemPage />} />
             <Route path="/missions" element={<MissionsPage />} />
             <Route path="/auth/login" element={<AuthContainerPage />} />
