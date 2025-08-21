@@ -24,7 +24,6 @@ function Missions() {
     const [RunClicked, setRunClicked] = useState(false);
     const [completeTodayTask, setcompleteTodayTask] = useState(false);
     const [temp_data, settemp_data] = useState({});
-    // const [checklevel, setchecklevel] = useState(1);
     const [needLogin, setneedLogin] = useState(false);
 
 

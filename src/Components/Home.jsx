@@ -266,7 +266,7 @@ function Home() {
             if (res.data.success) {
                 setName("")
                 setEmail("")
-                setNumber(undefined)
+                setNumber("")
                 setContact("")
                 SuccesToast(res.data.message)
             }
