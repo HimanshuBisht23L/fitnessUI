@@ -103,9 +103,9 @@ function Navbar() {
 
 
     const scrooltoContact = () => {
-        navigate("/",{
-            state :{
-                scrollToContact : true
+        navigate("/", {
+            state: {
+                scrollToContact: true
             }
         })
     }
@@ -123,7 +123,12 @@ function Navbar() {
             }
 
             <nav className="navbar">
-                <div className="logo">Solo Levelling</div>
+                <div> <img
+                    onClick={() => navigate("/")}
+                    className='logo'
+                    src="/public/images/Fitnesslogo1.png"
+                    alt="Image"
+                /> </div>
                 <ul className="nav-links">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/system">System</Link></li>

@@ -1,6 +1,11 @@
 import '../styles/Footer.css'
+import { useNavigate } from 'react-router-dom';
+
 
 function Footer() {
+
+    const navigate = useNavigate();
+
     return (
         <footer class="footer">
             <div class="footer-container">
@@ -8,7 +13,12 @@ function Footer() {
                     <p>© 2025 Himanshu | Built for real-life Fitness 💪</p>
                 </div>
                 <div class="footer-right">
-                    LOGO
+                    <img
+                        onClick={() => navigate("/")}
+                        className='logo'
+                        src="/public/images/Fitnesslogo1.png"
+                        alt="Image"
+                    />
                 </div>
             </div>
         </footer>

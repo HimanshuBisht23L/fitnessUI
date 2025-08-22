@@ -5,6 +5,7 @@
   padding: 20px;
   font-family: 'Orbitron', sans-serif;
   height: 4vh;
+  overflow: hidden;
 }
 
 .footer-container {
@@ -12,5 +13,27 @@
   justify-content: space-between;
   margin: 0 50px 10px 50px;
   align-items: center;
+  position: relative;
 }
 
+.footer-right{
+  position: absolute;
+  top: -18px;
+  right: 0;
+}
+
+.logo{
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.logo:hover{
+  transform: scale(1.05);
+}
+
+.logo:active{
+  transform: scale(0.999);
+}
