@@ -60,7 +60,7 @@ function Home() {
             }
 
             try {
-                const res = await axios.get("http://127.0.0.1:3000/user/comment_data", {
+                const res = await axios.get("https://fitnessui-backend.onrender.com/user/comment_data", {
                     params: {
                         uid: uid
                     }
@@ -104,7 +104,7 @@ function Home() {
             }
 
 
-            const res = await axios.post("http://127.0.0.1:3000/user/comments", {
+            const res = await axios.post("https://fitnessui-backend.onrender.com/user/comments", {
                 user_id: uid,
                 email: email,
                 name: name,
@@ -142,7 +142,7 @@ function Home() {
 
                 setcompareID(uid);
                 setcommentLoading(true);
-                const res = await axios.get("http://127.0.0.1:3000/user/fetchComments");
+                const res = await axios.get("https://fitnessui-backend.onrender.com/user/fetchComments");
 
                 if (res.data.success) {
                     SuccesToast(res.data.message);
@@ -169,7 +169,7 @@ function Home() {
     const deleteComment = async (id) => {
 
         try {
-            const res = await axios.post("http://127.0.0.1:3000/user/DeleteComment", {
+            const res = await axios.post("https://fitnessui-backend.onrender.com/user/DeleteComment", {
                 id: id
             });
 
@@ -198,7 +198,7 @@ function Home() {
 
 
         try {
-            const res = await axios.post("http://127.0.0.1:3000/user/like", {
+            const res = await axios.post("https://fitnessui-backend.onrender.com/user/like", {
                 userId: id,
                 likeUser: uid,
             })
@@ -230,7 +230,7 @@ function Home() {
 
 
         try {
-            const res = await axios.post("http://127.0.0.1:3000/user/dislike", {
+            const res = await axios.post("https://fitnessui-backend.onrender.com/user/dislike", {
                 userId: id,
                 dislikeUser: uid,
             })
@@ -256,7 +256,7 @@ function Home() {
     const postContact = async () => {
 
         try {
-            const res = await axios.post("http://127.0.0.1:3000/user/contact_message", {
+            const res = await axios.post("https://fitnessui-backend.onrender.com/user/contact_message", {
                 name: Name,
                 email: Email,
                 number: Number,

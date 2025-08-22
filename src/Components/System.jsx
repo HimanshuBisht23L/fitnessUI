@@ -57,7 +57,7 @@ function System() {
 
 
             try {
-                const res = await axios.post("http://127.0.0.1:3000/user/Taskdays", {
+                const res = await axios.post("https://fitnessui-backend.onrender.com/user/Taskdays", {
                     id: uid,
                     guest: Guest
                 });
@@ -135,7 +135,7 @@ function System() {
         if (isAuthenticated) {
             (async () => {
                 try {
-                    const res = await axios.post("http://127.0.0.1:3000/user/system_detail", {
+                    const res = await axios.post("https://fitnessui-backend.onrender.com/user/system_detail", {
                         email: email,
                     });
 

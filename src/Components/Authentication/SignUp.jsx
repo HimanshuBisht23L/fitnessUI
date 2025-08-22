@@ -43,7 +43,7 @@ function SignUp({ isActive }) {
         axios.defaults.withCredentials = true;
 
         try {
-            const res = await axios.post("http://localhost:3000/auth/signup", Detail);
+            const res = await axios.post("https://fitnessui-backend.onrender.com/auth/signup", Detail);
             console.log(res);
 
             if (res.data.success) {
@@ -55,8 +55,8 @@ function SignUp({ isActive }) {
                 // Ensure guest data exists in DB
                 if (guestuserdata && newlevel >= 1) {
                     try {
-                        const fullGuestData = await axios.get(`http://localhost:3000/user/guest_data/${guestuserdata.user_uid}`);
-                        await axios.post("http://localhost:3000/user/merge_data", {
+                        const fullGuestData = await axios.get(`https://fitnessui-backend.onrender.com/user/guest_data/${guestuserdata.user_uid}`);
+                        await axios.post("https://fitnessui-backend.onrender.com/user/merge_data", {
                             guestuserdata: fullGuestData.data.userdata,
                             useremail: Email
                         });

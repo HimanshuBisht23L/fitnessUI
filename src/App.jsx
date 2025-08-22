@@ -103,7 +103,7 @@ function App() {
     const CheckUserAuth = async () => {
 
       setinProcess(true)
-      const userAuth = await axios.post("http://localhost:3000/auth/isAuthenticated", {}, { withCredentials: true });
+      const userAuth = await axios.post("https://fitnessui-backend.onrender.com/auth/isAuthenticated", {}, { withCredentials: true });
       await new Promise((resolve) => {
         setTimeout(() => {
           return resolve("RESOLVED");
@@ -115,7 +115,7 @@ function App() {
       if (userAuth.data.success) {
         setisAuthenticated(true);
 
-        const userdata = await axios.get("http://localhost:3000/auth/api/user_detail", { withCredentials: true });
+        const userdata = await axios.get("https://fitnessui-backend.onrender.com/auth/api/user_detail", { withCredentials: true });
         setuserName(userdata.data.userdata.name)
         setuserId(userdata.data.userdata.id)
         setisVerified(userdata.data.userdata.isVerified)
@@ -140,7 +140,7 @@ function App() {
       const uid = localStorage.getItem("user_uid");
       if (uid) {
         try {
-          const res = await axios.get(`http://localhost:3000/missions/${uid}`);
+          const res = await axios.get(`https://fitnessui-backend.onrender.com/missions/${uid}`);
           const user = await res.data;
           localStorage.setItem("guest_user", JSON.stringify(user));
         } catch (err) {

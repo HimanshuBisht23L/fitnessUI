@@ -33,7 +33,7 @@ function Login({ isActive }) {
 
         try {
             console.log("Sending request...");
-            const res = await axios.post("http://localhost:3000/auth/login", Logindetail);
+            const res = await axios.post("https://fitnessui-backend.onrender.com/auth/login", Logindetail);
             console.log("recieved req");
 
             if (res.data.success) {
@@ -41,7 +41,7 @@ function Login({ isActive }) {
                 SuccesToast(res.data.message);
 
 
-                const userdata = await axios.get("http://localhost:3000/auth/api/user_detail", {
+                const userdata = await axios.get("https://fitnessui-backend.onrender.com/auth/api/user_detail", {
                     withCredentials: true,
                 });
 
@@ -56,7 +56,7 @@ function Login({ isActive }) {
                 // Clearing Guest_user Data From DB
                 const Guest_uid = JSON.parse(localStorage.getItem("guest_user"));
                 if (Guest_uid) {
-                    const isDeleted = await axios.post("http://localhost:3000/delete/guest_data", Guest_uid);
+                    const isDeleted = await axios.post("https://fitnessui-backend.onrender.com/delete/guest_data", Guest_uid);
                     if (isDeleted.data.success) {
                         SuccesToast(isDeleted.data.message);
                         localStorage.removeItem("guest_user");
@@ -68,43 +68,6 @@ function Login({ isActive }) {
 
 
                 localStorage.clear();
-
-                // try {
-                //     const res = await axios.post("http://127.0.0.1:3000/user/system_detail", {
-                //         email: userdata.data.userdata.email,
-                //     });
-
-                //     if (res.data.success) {
-
-                //         // const lastDate = localStorage.getItem("lastDate");
-                //         // const todayTask = localStorage.getItem("todayTask");
-                        
-                //         localStorage.clear();
-
-                //         const logUserData = {
-                //             level: res.data.level + 1,
-                //             missions: {
-                //                 pushups: "",
-                //                 pullups: "",
-                //                 crunches: "",
-                //                 situps: "",
-                //                 running: ""
-                //             }
-                //         };
-
-                //         localStorage.setItem(email, JSON.stringify(logUserData));
-
-
-                //         // if (lastDate) localStorage.setItem("lastDate", lastDate);
-                //         // if (todayTask) localStorage.setItem("todayTask", todayTask);
-
-                //     } else {
-                //         console.log(res.data.message);
-                //     }
-
-                // } catch (error) {
-                //     console.log("Error : " + error.message);
-                // }
 
                 setTimeout(() => {
                     navigate("/");

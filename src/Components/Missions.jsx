@@ -45,7 +45,7 @@ function Missions() {
             // for logged User
             if (isAuthenticated && email) {
                 try {
-                    const res = await axios.post("http://127.0.0.1:3000/user/system_detail", {
+                    const res = await axios.post("https://fitnessui-backend.onrender.com/user/system_detail", {
                         email: email,
                     });
 
@@ -298,7 +298,7 @@ function Missions() {
 
     const sendLoggedUserDataBackend = async (user_data) => {
         try {
-            const res = await axios.post("http://127.0.0.1:3000/user/missions", {
+            const res = await axios.post("https://fitnessui-backend.onrender.com/user/missions", {
                 user_data: user_data,
                 email: email
             }, { withCredentials: true });
@@ -343,7 +343,7 @@ function Missions() {
 
     const SendToBackEnd = async (user_data, newlvl) => {
         try {
-            const res = await axios.post("http://127.0.0.1:3000/missions", user_data);
+            const res = await axios.post("https://fitnessui-backend.onrender.com/missions", user_data);
             console.log(res);
 
             setcompleteTodayTask(true);

@@ -56,7 +56,7 @@ function VerifyResetPassEmail() {
     try {
 
       setSending(true);
-      const res = await axios.post("http://localhost:3000/auth/send_reset_password_otp", { email: email }, { withCredentials: true });
+      const res = await axios.post("https://fitnessui-backend.onrender.com/auth/send_reset_password_otp", { email: email }, { withCredentials: true });
       console.log(res);
       setSending(false);
 
@@ -84,7 +84,7 @@ function VerifyResetPassEmail() {
   const verifyOTP = async () => {
 
     try {
-      const res = await axios.post("http://localhost:3000/auth/reset_password_otp_verify", {
+      const res = await axios.post("https://fitnessui-backend.onrender.com/auth/reset_password_otp_verify", {
         email: email,
         otp: otp
       },
@@ -114,7 +114,7 @@ function VerifyResetPassEmail() {
   const sendOTPagain = async () => {
     try {
 
-      const res = await axios.post("http://localhost:3000/auth/send_reset_password_otp", { email: email }, { withCredentials: true });
+      const res = await axios.post("https://fitnessui-backend.onrender.com/auth/send_reset_password_otp", { email: email }, { withCredentials: true });
       console.log(res);
 
       if (res.data.success) {
@@ -139,7 +139,7 @@ function VerifyResetPassEmail() {
     }
 
     try {
-      const res = await axios.post("http://localhost:3000/auth/reset_password", {
+      const res = await axios.post("https://fitnessui-backend.onrender.com/auth/reset_password", {
         email: email,
         newPassword: newPassword1
       },

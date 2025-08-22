@@ -50,7 +50,7 @@ function Navbar() {
     const logoutUser = async () => {
 
         try {
-            const res = await axios.post("http://localhost:3000/auth/logout", {}, { withCredentials: true })
+            const res = await axios.post("https://fitnessui-backend.onrender.com/auth/logout", {}, { withCredentials: true })
             if (res.data.success) {
                 SuccesToast(res.data.message);
 
@@ -83,7 +83,7 @@ function Navbar() {
 
         try {
             setloading(true);
-            const res = await axios.post("http://localhost:3000/auth/send_verify_otp", {}, { withCredentials: true })
+            const res = await axios.post("https://fitnessui-backend.onrender.com/auth/send_verify_otp", {}, { withCredentials: true })
 
             if (res.data.success) {
                 console.log("OTP SENDED")
@@ -126,7 +126,7 @@ function Navbar() {
                 <div> <img
                     onClick={() => navigate("/")}
                     className='logo'
-                    src="/public/images/Fitnesslogo1.png"
+                    src="/images/Fitnesslogo1.png"
                     alt="Image"
                 /> </div>
                 <ul className="nav-links">

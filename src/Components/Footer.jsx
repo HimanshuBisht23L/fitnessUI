@@ -16,7 +16,7 @@ function Footer() {
                     <img
                         onClick={() => navigate("/")}
                         className='logo'
-                        src="/public/images/Fitnesslogo1.png"
+                        src="/images/Fitnesslogo1.png"
                         alt="Image"
                     />
                 </div>
