@@ -287,7 +287,7 @@ function Home() {
             <div className='home-main-cont'>
                 <section className="hero">
                     <div className='hero-sub'>
-                        <h1>SYSTEM ⎯ AWAKENING</h1>
+                        <h1>SYSTEM - AWAKENING </h1>
                         <p>Train. Level Up. Evolve.</p>
                         <button
                             onClick={() => navigate('/system')}

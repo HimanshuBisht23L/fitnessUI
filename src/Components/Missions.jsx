@@ -419,34 +419,34 @@ function Missions() {
                                         return (
                                             <>
                                                 <tr>
-                                                    <td>Push Ups</td>
-                                                    <td>{level.exercises.Pushups}</td>
-                                                    <td><input ref={PushisDone} type="checkbox" disabled className='Pushups_Check' style={{ width: "30px", height: "30px" }} /></td>
-                                                    <td> <button onClick={markPushupsDone} className='complete-btn'>Completed</button> </td>
+                                                    <td data-label="Task : " className='last-css'>Push Ups</td>
+                                                    <td data-label="Range : " className='last-css'>{level.exercises.Pushups}</td>
+                                                    <td data-label="Completed : " className='last-css'><input ref={PushisDone} type="checkbox" disabled className='Pushups_Check' style={{ width: "30px", height: "30px" }} /></td>
+                                                    <td data-label="Action : "  className='last-css' > <button onClick={markPushupsDone} className='complete-btn'>Completed</button> </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Pull Ups</td>
-                                                    <td>{level.exercises.Pullups}</td>
-                                                    <td><input ref={PullisDone} type="checkbox" disabled className='Pullups_Check' style={{ width: "30px", height: "30px" }} /></td>
-                                                    <td> <button onClick={markPullupsDone} className='complete-btn'>Completed</button> </td>
+                                                    <td data-label="Task : " className='last-css'>Pull Ups</td>
+                                                    <td data-label="Range : " className='last-css'>{level.exercises.Pullups}</td>
+                                                    <td data-label="Completed : " className='last-css'><input ref={PullisDone} type="checkbox" disabled className='Pullups_Check' style={{ width: "30px", height: "30px" }} /></td>
+                                                    <td data-label="Action : " className='last-css' > <button onClick={markPullupsDone} className='complete-btn'>Completed</button> </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Running</td>
-                                                    <td>{level.exercises.Running}</td>
-                                                    <td><input ref={RunisDone} type="checkbox" disabled className='Running_Check' style={{ width: "30px", height: "30px" }} /></td>
-                                                    <td> <button onClick={markRunDone} className='complete-btn'>Completed</button> </td>
+                                                    <td data-label="Task : " className='last-css'>Running</td>
+                                                    <td data-label="Range : " className='last-css'>{level.exercises.Running}</td>
+                                                    <td data-label="Completed : " className='last-css'><input ref={RunisDone} type="checkbox" disabled className='Running_Check' style={{ width: "30px", height: "30px" }} /></td>
+                                                    <td data-label="Action : " className='last-css' > <button onClick={markRunDone} className='complete-btn'>Completed</button> </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Crunches</td>
-                                                    <td>{level.exercises.Crunches}</td>
-                                                    <td><input ref={CrunchisDone} type="checkbox" disabled className='Crunches_Check' style={{ width: "30px", height: "30px" }} /></td>
-                                                    <td> <button onClick={markCrunchDone} className='complete-btn'>Completed</button> </td>
+                                                    <td data-label="Task : " className='last-css'>Crunches</td>
+                                                    <td data-label="Range : " className='last-css'>{level.exercises.Crunches}</td>
+                                                    <td data-label="Completed : " className='last-css'><input ref={CrunchisDone} type="checkbox" disabled className='Crunches_Check' style={{ width: "30px", height: "30px" }} /></td>
+                                                    <td data-label="Action : " className='last-css'> <button onClick={markCrunchDone} className='complete-btn'>Completed</button> </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Sit Ups</td>
-                                                    <td>{level.exercises.Situps}</td>
-                                                    <td><input ref={SitUpsisDone} type="checkbox" disabled className='Situps_Check' style={{ width: "30px", height: "30px" }} /></td>
-                                                    <td> <button onClick={markSitupsDone} className='complete-btn'>Completed</button> </td>
+                                                    <td data-label="Task : " className='last-css'>Sit Ups</td>
+                                                    <td data-label="Range : " className='last-css'>{level.exercises.Situps}</td>
+                                                    <td data-label="Completed : " className='last-css'><input ref={SitUpsisDone} type="checkbox" disabled className='Situps_Check' style={{ width: "30px", height: "30px" }} /></td>
+                                                    <td data-label="Action : " className='last-css'> <button onClick={markSitupsDone} className='complete-btn'>Completed</button> </td>
                                                 </tr>
                                             </>
                                         )

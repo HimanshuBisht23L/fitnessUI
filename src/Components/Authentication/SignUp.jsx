@@ -62,7 +62,7 @@ function SignUp({ isActive }) {
                         });
 
 
-                        if(res.data.success){
+                        if (res.data.success) {
                             SuccesToast(res.data.message);
                         }
                         else {

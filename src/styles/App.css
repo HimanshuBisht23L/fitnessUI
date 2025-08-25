@@ -1,45 +1,45 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
 }
 
 
-.homepage-div{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.homepage-div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.Missionpage-div{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.Missionpage-div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .Loginpage-div {
-    background: linear-gradient(to bottom, #0a0f1d 0%, #0f1c2e 100%);
-    color: #00ffe1;
-    min-height: 100vh;
+  background: linear-gradient(to bottom, #0a0f1d 0%, #0f1c2e 100%);
+  color: #00ffe1;
+  min-height: 100vh;
 }
 
 
-.verify-container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background : linear-gradient(to bottom, #0a0f1d 0%, #0f1c2e 100%);
+.verify-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #0a0f1d 0%, #0f1c2e 100%);
 }
 
-.verify-email-page{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background : linear-gradient(to bottom, #0a0f1d 0%, #0f1c2e 100%);
+.verify-email-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #0a0f1d 0%, #0f1c2e 100%);
 }
 
 
@@ -60,7 +60,7 @@
   gap: 1rem;
 }
 
-.circle{
+.circle {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -70,10 +70,21 @@
 }
 
 @keyframes rotate {
-    from{
-      transform: rotate(0deg);
-    }
-    to{
-      transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 630px) {
+  .Loginpage-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
 }

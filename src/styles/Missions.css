@@ -15,7 +15,8 @@
 .mission-complete-promt {
     position: absolute;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
+    width: -webkit-fill-available;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -152,30 +153,30 @@ input[type="checkbox"] {
     border-radius: 15px;
     gap: 1.5rem;
     background: linear-gradient(to bottom, #0a0f1d 0%, #0f1c2e 100%);
-    border : 1px solid rgba(179, 245, 229, 0.546);
+    border: 1px solid rgba(179, 245, 229, 0.546);
 }
 
-.sub-login-popup b{
+.sub-login-popup b {
     color: rgb(0, 255, 255);
     text-decoration: underline;
 }
 
-.popup-heading{
+.popup-heading {
     display: flex;
     justify-content: space-between;
 
-    >h2{
+    >h2 {
         color: rgb(0, 255, 234);
     }
 }
 
-.login-popup-button{
+.login-popup-button {
     display: flex;
     gap: 1rem;
     justify-content: center;
 }
 
-.close-login-popup{
+.close-login-popup {
     width: 25px;
     height: 25px;
     cursor: pointer;
@@ -192,4 +193,115 @@ input[type="checkbox"] {
 .close-login-popup:active {
     background-color: #eaeaea1f;
     color: white;
+}
+
+
+
+
+/* ================== Responsive Design ================== */
+
+/* tablet */
+@media (max-width: 768px) {
+    .mission-main-cont {
+        /* padding: 0.5rem; */
+        gap: 1.5rem;
+    }
+
+    .mission-main-cont>h1 {
+        font-size: 1.8rem;
+    }
+
+    .mission-cont {
+        padding: 1rem;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    table {
+        width: -webkit-fill-available;
+    }
+
+    thead,
+    tbody,
+    th,
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    thead {
+        display: none;
+        /* Hide table header */
+    }
+
+    tbody tr {
+        margin-bottom: 1.2rem;
+        border: 1px solid #00ffe1;
+        border-radius: 10px;
+        padding: 0.8rem;
+        background-color: rgba(255, 255, 255, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    tbody td {
+        border: none;
+        padding: 0.4rem 0;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    tbody td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: inline-block;
+        margin-right: 0.5rem;
+        color: #00ffe1;
+    }
+
+    .complete-btn {
+        /* width: 100%; */
+        text-align: center;
+    }
+
+}
+
+/* Very small devices */
+@media (max-width: 480px) {
+    .mission-main-cont>h1 {
+        font-size: 1.5rem;
+    }
+
+    .mission-cont {
+        padding: 0.8rem;
+    }
+
+    .mission-complete-promt {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .login-popup-button {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .login-popup-button button {
+        width: 100%;
+    }
+}
+
+/*Very  Very small devices */
+@media (max-width: 290px) {
+    .complete-btn {
+        text-align: center;
+    }
+
+    tbody td {
+        flex-direction: column;
+    }
 }

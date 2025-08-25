@@ -16,13 +16,13 @@
   position: relative;
 }
 
-.footer-right{
+.footer-right {
   position: absolute;
   top: -18px;
   right: 0;
 }
 
-.logo{
+.logo {
   border-radius: 100%;
   width: 60px;
   height: 60px;
@@ -30,10 +30,29 @@
   cursor: pointer;
 }
 
-.logo:hover{
+.logo:hover {
   transform: scale(1.05);
 }
 
-.logo:active{
+.logo:active {
   transform: scale(0.999);
+}
+
+
+@media (max-width: 628px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer {
+    height: 5vh;
+  }
+
+  .footer-left {
+    text-align: center;
+  }
+
+  .footer-right {
+    position: unset;
+  }
 }

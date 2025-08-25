@@ -13,10 +13,10 @@ function AuthContainer() {
     return (
         <div className='authCont-main-cont'>
             <div
-                className="authCont-sub-cont"
+                className={`authCont-sub-cont ${!isLoginPage ? "showReverse" : ""}`}
                 style={{ background: isLoginPage ? "linear-gradient(to right, #ffffff27 50%, #ffffff11 50%)" : "linear-gradient(to left, #ffffff27 50%, #ffffff11 50%)" }}
             >
-                <div onClick={()=> navigate("/")} className="auth-back-btn">
+                <div onClick={() => navigate("/")} className="auth-back-btn">
                     <IoArrowBackOutline size={20} />
                 </div>
                 <Login isActive={isLoginPage} />

@@ -126,7 +126,7 @@ function Login({ isActive }) {
                                     type="password"
                                 />
                             </div>
-                            <p onClick={() => navigate("/auth/verifyRe")}>forget password ?</p>
+                            <p onClick={() => navigate("/auth/verifyResetemail")}>forget password ?</p>
                         </div>
                         <button type="submit" >Login</button>
                     </div>

@@ -338,6 +338,7 @@ function System() {
                         <h1>▣ Stats</h1>
 
                         <div className='stats'>
+
                             <div className='cStat'>
                                 <h3>💪 Strength:</h3>
                                 <p>{Strength}</p>
@@ -422,14 +423,14 @@ function System() {
                 <h1>Previous Logs</h1>
                 <ol className={logs.length > 0 ? 'logs' : 'logs tempLog'}>
                     {
-                        logs.length > 0 ? 
-                        logs.map((log) => {
-                            return (
-                                <li>{log}</li>
-                            )
-                        })
-                        :
-                        <li>No logs yet</li>
+                        logs.length > 0 ?
+                            logs.map((log) => {
+                                return (
+                                    <li>{log}</li>
+                                )
+                            })
+                            :
+                            <li>No logs yet</li>
                     }
                 </ol>
             </div>

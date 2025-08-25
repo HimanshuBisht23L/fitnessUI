@@ -13,20 +13,22 @@
     display: flex;
     padding: 2rem;
     height: fit-content;
-    width: fit-content;
+    /* width: fit-content; */
+    width: 60%;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
     gap: 2.5rem;
     transition: all 1s ease-in-out;
     position: relative;
 }
 
 
-.auth-back-btn{
+.auth-back-btn {
     position: absolute;
     top: 20px;
     left: 20px;
-    color:aqua;
+    color: aqua;
     padding: 0.5rem;
     display: flex;
     align-items: center;
@@ -34,10 +36,45 @@
     cursor: pointer;
 }
 
-.auth-back-btn:hover{
+.auth-back-btn:hover {
     background-color: #ffffff11;
 }
 
-.auth-back-btn:active{
-    background-color:#ffffff0a;
+.auth-back-btn:active {
+    background-color: #ffffff0a;
+}
+
+
+@media (max-width: 1024px) {
+    .authCont-sub-cont {
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .authCont-sub-cont {
+        width: 100%;
+    }
+}
+
+@media (max-width: 630px) {
+
+    .authCont-main-cont {
+        height: 100%;
+    }
+
+    .authCont-sub-cont {
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        background: #ffffff11 !important;
+        gap: 0;
+        padding: 0;
+        border-radius: 0;
+        justify-content: center;
+    }
+
+    .showReverse{
+        flex-direction: column-reverse;
+    }
 }

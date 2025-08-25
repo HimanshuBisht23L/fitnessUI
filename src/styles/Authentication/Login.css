@@ -4,7 +4,8 @@
     gap: 2rem;
     padding: 3rem 2rem;
     border-radius: 10px;
-    width: 50vh;
+    /* width: 50vh; */
+    width: 50%;
     height: 60%;
     justify-content: space-between;
     display: none;
@@ -26,7 +27,7 @@ button {
     background: transparent;
     border: 1px solid #00ffe1;
     color: #00ffe1;
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
     cursor: pointer;
     border-radius: 10px;
     transition: 0.2s;
@@ -47,7 +48,7 @@ label {
     padding-left: 4px;
 }
 
-.login-sub-way > p {
+.login-sub-way>p {
     width: fit-content;
     font-size: .8rem;
     cursor: pointer;
@@ -56,7 +57,7 @@ label {
     transition: all 0.2s ease-in-out;
 }
 
-.login-sub-way > p:hover {
+.login-sub-way>p:hover {
     text-decoration: underline;
     color: #00ffe1;
 }
@@ -141,25 +142,41 @@ label {
 
 
 
-.login-slide-button-box{
+.login-slide-button-box {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 3rem 2rem;
     height: -webkit-fill-available;
     border-radius: 10px;
-    width: 50vh;
+    /* width: 50vh; */
+    width: 50%;
     /* background-color: #ffffff11; */
     justify-content: center;
     align-items: center;
 }
 
-.login-slide-button-box > button{
+.login-slide-button-box>button {
     border-radius: 0;
 }
 
-.login-slide-button-box > p{
+.login-slide-button-box>p {
     font-size: 1rem;
 }
 
 
+
+
+@media (max-width: 630px) {
+    .login-main-cont {
+        width: unset;
+        padding: 5rem 2rem 2rem 2rem;
+    }
+
+    .login-slide-button-box{
+        width: 100%;
+        gap: 1rem;
+        padding: 0;
+        text-align: center;
+    }
+}

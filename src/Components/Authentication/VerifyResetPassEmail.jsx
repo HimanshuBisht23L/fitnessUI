@@ -187,7 +187,7 @@ function VerifyResetPassEmail() {
                   />
                 </div>
               </div>
-              <p>Didn't forget ?&nbsp;<b onClick={() => navigate("/auth/login")} >Login</b></p>
+              <p className='notForgetLogin'>Didn't forget ?&nbsp;<b onClick={() => navigate("/auth/login")} >Login</b></p>
               <button type="submit" >{Sending ? typeText : "Send OTP"}</button>
             </div>
           </form>

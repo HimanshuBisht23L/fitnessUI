@@ -4,24 +4,25 @@
     gap: 2rem;
     padding: 3rem 2rem;
     border-radius: 10px;
-    width: 50vh;
+    /* width: 50vh; */
+    width: 50%;
     height: 60%;
     justify-content: space-between;
 }
 
 
-.signup-main-cont > h1 {
+.signup-main-cont>h1 {
     font-size: 2rem;
     text-align: center;
 }
 
-.signup-main-cont > form {
+.signup-main-cont>form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.signup-main-cont > form > button {
+.signup-main-cont>form>button {
     background: transparent;
     border: 1px solid #00ffe1;
     color: #00ffe1;
@@ -31,17 +32,17 @@
     transition: 0.2s;
 }
 
-.signup-main-cont > form > button:hover {
+.signup-main-cont>form>button:hover {
     background-color: #00ffe1;
     color: #0a0f1d;
 }
 
-.signup-main-cont > form > button:active {
+.signup-main-cont>form>button:active {
     background-color: #00ffe1b7;
     color: #0a0f1d;
 }
 
-.signup-main-cont > form > label {
+.signup-main-cont>form>label {
     font-size: 1.2rem;
     padding-left: 4px;
 }
@@ -66,9 +67,9 @@
 
 
 .signup-input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 0 #0a0f1d inset !important;
-  -webkit-text-fill-color: #00ffe1 !important; 
-  transition: background-color 5000s ease-in-out 0s;
+    -webkit-box-shadow: 0 0 0 0 #0a0f1d inset !important;
+    -webkit-text-fill-color: #00ffe1 !important;
+    transition: background-color 5000s ease-in-out 0s;
 }
 
 
@@ -125,32 +126,47 @@
     transform: scale(1.12);
 }
 
-.signup-slide-button-box{
+.signup-slide-button-box {
     display: none;
 }
 
 
 
-.signup-slide-button-box{
+.signup-slide-button-box {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 3rem 2rem;
     height: -webkit-fill-available;
     border-radius: 10px;
-    width: 50vh;
+    /* width: 50vh; */
+    width: 50%;
     /* background-color: #ffffff11; */
     justify-content: center;
     align-items: center;
 }
 
 
-.signup-slide-button-box > button{
+.signup-slide-button-box>button {
     border-radius: 0;
 }
 
 
-.signup-slide-button-box > p{
+.signup-slide-button-box>p {
     font-size: 1rem;
 }
 
+
+@media (max-width: 630px) {
+    .signup-slide-button-box {
+        gap: 1rem;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .signup-main-cont {
+        width: unset;
+        padding: 5rem 2rem 2rem 2rem;
+    }
+}
