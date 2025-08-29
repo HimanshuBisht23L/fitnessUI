@@ -396,6 +396,10 @@
     .level{
         width: 25rem;
     }
+
+    .onboarding-prompt{
+        margin: 0 1rem;
+    }
 }
 
 @media (max-width: 500px){
@@ -405,6 +409,32 @@
 }
 
 @media (max-width: 400px){
+
+    .card{
+        width: 100%;
+        padding: 0;
+    }
+    .react-calendar__navigation button {
+        min-width: unset !important;
+    }
+
+    .cStat h3, .cStat p {
+        font-size: large;
+    }
+
+
+    .history-list > li {
+        font-size: large;
+    }
+
+    #next-mission ul p{
+        font-size: 1.5rem;
+    }
+
+    #next-mission ul{
+        overflow: clip;
+    }
+
     .level{
         width: 16rem;
     }

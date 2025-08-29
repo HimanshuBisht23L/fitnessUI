@@ -261,7 +261,7 @@ function System() {
                 expectedDay = new Date(currentDay);
                 expectedDay.setDate(expectedDay.getDate() + 1);
             }
-            setDisciplane(discipline + "%");
+            setDisciplane(parseInt(discipline) + "%");
 
 
 

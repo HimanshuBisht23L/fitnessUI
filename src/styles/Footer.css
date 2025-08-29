@@ -42,10 +42,14 @@
 @media (max-width: 628px) {
   .footer-container {
     flex-direction: column;
+    margin: 0;
   }
 
   .footer {
     height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 
   .footer-left {
@@ -53,6 +57,6 @@
   }
 
   .footer-right {
-    position: unset;
+    display: none;
   }
 }
